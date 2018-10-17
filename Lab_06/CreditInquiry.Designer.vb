@@ -30,13 +30,15 @@ Partial Class CreditInquiry
         Me.creditBalancesButton = New System.Windows.Forms.Button()
         Me.debitBalancesButton = New System.Windows.Forms.Button()
         Me.zeroBalancesButton = New System.Windows.Forms.Button()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.applicationMenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
         'applicationMenuStrip
         '
         Me.applicationMenuStrip.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.applicationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
+        Me.applicationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.applicationMenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.applicationMenuStrip.Name = "applicationMenuStrip"
         Me.applicationMenuStrip.Size = New System.Drawing.Size(517, 24)
@@ -100,6 +102,19 @@ Partial Class CreditInquiry
         Me.zeroBalancesButton.Text = "Zero Balances"
         Me.zeroBalancesButton.UseVisualStyleBackColor = True
         '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Text = "About"
+        '
         'CreditInquiry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -126,6 +141,8 @@ Partial Class CreditInquiry
    Friend WithEvents accountsTextBox As System.Windows.Forms.TextBox
    Friend WithEvents creditBalancesButton As System.Windows.Forms.Button
    Friend WithEvents debitBalancesButton As System.Windows.Forms.Button
-   Friend WithEvents zeroBalancesButton As System.Windows.Forms.Button
+    Friend WithEvents zeroBalancesButton As System.Windows.Forms.Button
+    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
