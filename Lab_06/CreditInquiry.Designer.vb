@@ -39,7 +39,7 @@ Partial Class CreditInquiry
         Me.applicationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.applicationMenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.applicationMenuStrip.Name = "applicationMenuStrip"
-        Me.applicationMenuStrip.Size = New System.Drawing.Size(517, 33)
+        Me.applicationMenuStrip.Size = New System.Drawing.Size(517, 24)
         Me.applicationMenuStrip.TabIndex = 0
         Me.applicationMenuStrip.Text = "MenuStrip1"
         '
@@ -47,19 +47,19 @@ Partial Class CreditInquiry
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(50, 29)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "&File"
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(153, 30)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.OpenToolStripMenuItem.Text = "&Open..."
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(153, 30)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
         'accountsTextBox
@@ -102,7 +102,7 @@ Partial Class CreditInquiry
         '
         'CreditInquiry
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(517, 158)
         Me.Controls.Add(Me.zeroBalancesButton)

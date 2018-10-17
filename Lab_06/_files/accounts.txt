@@ -1,0 +1,6 @@
+123456,Anthony,DePinto,100
+345678,Sidney,Crosby,87000
+98765,Homer,Simpson,-1000
+545433,Steve,Jobs,0
+795349,Bill,Gates,-90
+84328,Mark,Cuban,120000
